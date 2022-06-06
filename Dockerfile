@@ -10,7 +10,7 @@ RUN apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chro
 RUN apt-get install -y software-properties-common
 # RUN add-apt-repository ppa:bitcoin/bitcoin
 # RUN apt-get update
-RUN apt-get install -y libdb-dev libdb++-dev
+# RUN apt-get install -y libdb-dev libdb++-dev
 #upnp
 RUN apt-get install -y libminiupnpc-dev
 #ZMQ
