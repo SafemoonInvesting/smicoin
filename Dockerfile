@@ -22,4 +22,4 @@ RUN make
 RUN make install
 #open service port
 EXPOSE 9332 19332
-CMD ["faithcoind", "--printtoconsole"]
+CMD ["smicoind", "--printtoconsole"]
